@@ -7,9 +7,15 @@ function findNeedle(haystack) {
         indices.push(idx);
         idx = haystack.indexOf(element, idx);
         return `found the needle at position ${idx}`
-
-
     }
     console.log(haystack);
-
 };
+
+//Создайте функцию, которая возвращает массив целых чисел от n до 1, где n>0.
+const reverseSeq = n =>  {
+    let res = [];
+    for(let i = 1; i <= n; i++)
+        res.push(i);
+    return res.reverse();
+};
+//
