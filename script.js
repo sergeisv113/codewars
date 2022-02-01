@@ -25,3 +25,8 @@ function digitize(n) {
     return arr;
 };
 digitize(348597);//[7,6,5,4,3]
+// удаления строчных гласных ( a, e, i, o, u) в заданной строке
+function shortcut (string) {
+    return string.replace(/[aeiou]/gi,'');
+};
+shortcut('hello');//'hll'
