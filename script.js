@@ -18,6 +18,7 @@ const reverseSeq = n =>  {
         res.push(i);
     return res.reverse();
 };
+reverseSeq(5);//[5, 4, 3, 2, 1]
 //Учитывая случайное неотрицательное число, вы должны вернуть цифры этого числа в массиве в обратном порядке.
 function digitize(n) {
     let arr = Array.from(String(n), Number).reverse();
