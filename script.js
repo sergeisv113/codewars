@@ -1,4 +1,4 @@
-//Напишите функцию findNeedle(), которая принимает arrayполный мусор, но содержит один"needle" После того, как ваша функция найдет иглу, она должна вернуть сообщение (в виде строки), в котором говорится:"found the needle at position "плюс indexон нашел иглу
+//Напишите функцию findNeedle(), которая принимает array полный мусор, но содержит один"needle" После того, как ваша функция найдет иглу, она должна вернуть сообщение (в виде строки), в котором говорится:"found the needle at position "плюс indexон нашел иглу
 function findNeedle(haystack) {
     let indices = [];
     let element = "needle";
@@ -18,4 +18,9 @@ const reverseSeq = n =>  {
         res.push(i);
     return res.reverse();
 };
-//
+//Учитывая случайное неотрицательное число, вы должны вернуть цифры этого числа в массиве в обратном порядке.
+function digitize(n) {
+    let arr = Array.from(String(n), Number).reverse();
+    return arr;
+};
+digitize(348597);//[7,6,5,4,3]
