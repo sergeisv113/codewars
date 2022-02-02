@@ -71,3 +71,7 @@ const rps = function ( p1, p2 ) {
     }
 
 };
+//['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
+function smash (words) {
+    return words.join(' ');
+};
