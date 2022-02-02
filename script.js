@@ -90,3 +90,13 @@ function well(x){
 function makeUpperCase(str) {
     return str.toUpperCase();
 }
+// посчитать, сколько чистых страниц вам нужно. Если n < 0или m < 0вернуться 0.
+let paperwork = (n, m) => {
+    let  res = 0;
+    res = n * m;
+    if (n < 0 || m < 0) {
+        return +'0';
+    } else {
+        return res;
+    }
+}
