@@ -30,3 +30,12 @@ function shortcut (string) {
     return string.replace(/[aeiou]/gi,'');
 };
 shortcut('hello');//'hll'
+//Учитывая строку цифр, вы должны заменить любую цифру ниже 5 на «0», а любую цифру 5 и выше на «1». Верните полученную строку.
+function fakeBin(x){
+    let result = '';
+    for(let i = 0; i < x.length; i++){
+        x[i] < 5 ? result += 0 : result += 1;
+    }
+    return result;
+}
+fakeBin('45385593107843568')//'01011110001100111'
