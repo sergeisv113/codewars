@@ -1,9 +1,12 @@
-function squareSum(numbers){
-    let result = 0;
-    numbers.forEach(function(x) {
-        result += Math.pow(x, 2);
-    })
-    return result
+function bmi(weight, height) {
+    let result = weight / (height * height);
+    if ( result <= 18.5 ) {
+        return  "Underweight";
+    } else  if (result <= 25.0) {
+        return "Normal";
+    } else  if (result <= 30.0) {
+        return "Overweight";
+    } else {
+        return "Obese"
+    }
 }
-squareSum([0, 3, 4, 5]);
-squareSum([1,2]);
