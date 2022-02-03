@@ -121,3 +121,8 @@ function bmi(weight, height) {
         return "Obese"
     }
 }
+//Этот код должен храниться "codewa.rs"как вызываемая переменная, nameно он не работает. Вы можете понять, почему?
+let a = "code";
+let b = "wa.rs";
+let name;
+name = a + b;
