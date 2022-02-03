@@ -100,3 +100,11 @@ let paperwork = (n, m) => {
         return res;
     }
 }
+// возводила в квадрат каждое переданное ей число, а затем суммировала результаты.
+function squareSum(numbers){
+    let result = 0;
+    numbers.forEach(function(x) {
+        result += Math.pow(x, 2);
+    })
+    return result
+}

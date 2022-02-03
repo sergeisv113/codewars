@@ -1,9 +1,9 @@
-let paperwork = (n, m) => {
-   let  res = 0;
-   res = n * m;
-    if (n < 0 || m < 0) {
-        return +'0';
-    } else {
-        return res;
-    }
+function squareSum(numbers){
+    let result = 0;
+    numbers.forEach(function(x) {
+        result += Math.pow(x, 2);
+    })
+    return result
 }
+squareSum([0, 3, 4, 5]);
+squareSum([1,2]);
