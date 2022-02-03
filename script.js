@@ -126,3 +126,12 @@ let a = "code";
 let b = "wa.rs";
 let name;
 name = a + b;
+//которая принимает целое число в качестве аргумента и возвращает «Четное» для четных чисел или «Нечетное» для нечетных чисел.
+function even_or_odd(number) {
+    let num = number % 2;
+    if (num == 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}

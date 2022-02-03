@@ -1,4 +1,8 @@
-let a = "code";
-let b = "wa.rs";
-let name;
-    name = a + b;
+function even_or_odd(number) {
+    let num = number % 2;
+    if (num == 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
