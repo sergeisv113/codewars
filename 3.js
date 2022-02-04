@@ -1,8 +1,4 @@
-function even_or_odd(number) {
-    let num = number % 2;
-    if (num == 0) {
-        return "Even";
-    } else {
-        return "Odd";
-    }
+function abbrevName(name){
+   return name.split(" ").map((n)=>n[0]).join(".").toUpperCase();
 }
+abbrevName("Sam Harris");

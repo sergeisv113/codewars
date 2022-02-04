@@ -135,3 +135,7 @@ function even_or_odd(number) {
         return "Odd";
     }
 }
+//функцию для преобразования имени в инициалы. Это ката строго состоит из двух слов с одним пробелом между ними.
+function abbrevName(name){
+    return name.split(" ").map((n)=>n[0]).join(".").toUpperCase();
+}
