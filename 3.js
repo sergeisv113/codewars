@@ -1,4 +1,6 @@
-function abbrevName(name){
-   return name.split(" ").map((n)=>n[0]).join(".").toUpperCase();
+function boolToWord( bool ){
+if (bool) {
+    return "Yes";
 }
-abbrevName("Sam Harris");
+return "No";
+};

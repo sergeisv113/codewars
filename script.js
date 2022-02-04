@@ -139,3 +139,10 @@ function even_or_odd(number) {
 function abbrevName(name){
     return name.split(" ").map((n)=>n[0]).join(".").toUpperCase();
 }
+//Завершите метод, который принимает логическое значение и возвращает "Yes"строку для true, или "No"строку для false.
+function boolToWord( bool ){
+    if (bool) {
+        return "Yes";
+    }
+    return "No";
+};
