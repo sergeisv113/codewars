@@ -188,3 +188,7 @@ function getAge(inputString){
     let str = 0;
     return str = +inputString[0];
 }
+//Первое столетие охватывает период с 1 года по 100 год включительно , второе столетие — с 101 года по 200 год включительно и т. д.
+function century(year) {
+    return Math.trunc((year - 1) / 100 + 1);
+}

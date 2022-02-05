@@ -1,4 +1,3 @@
-function getAge(inputString){
-    let str = 0;
- return str = +inputString[0];
+function century(year) {
+    return Math.trunc((year - 1) / 100 + 1);
 }
