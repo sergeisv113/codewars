@@ -183,4 +183,8 @@ function switchItUp(number){
             break;
     }
 }
-//
+//Предположим, что тестовая входная строка всегда действительна и может выглядеть как «1 год» или «5 лет» и т. д. Первый символ — это только число.
+function getAge(inputString){
+    let str = 0;
+    return str = +inputString[0];
+}
