@@ -1,16 +1,31 @@
-function howMuchILoveYou(nbPetals) {
-   if (nbPetals == 0) {
-       return 'I love you';
-   } else  if (nbPetals == 1) {
-       return 'a little';
-   } else  if (nbPetals == 2) {
-       return 'a lot';
-   } else  if (nbPetals == 3) {
-       return 'passionately';
-   } else if (nbPetals == 4) {
-       return  'madly';
-   } else {
-       return 'not at all';
-   }
+function switchItUp(number){
+switch (number) {
+    case 1:
+        return  'One';
+        break;
+    case 2:
+        return 'Two';
+        break;
+    case 3:
+        return 'Three';
+        break;
+    case 4:
+        return 'Four';
+        break;
+    case 5:
+        return 'Five';
+        break;
+    case 6:
+        return 'Six';
+        break;
+    case 7:
+        return 'Seven';
+        break;
+    case 8:
+        return 'Eight';
+        break;
+    case 9:
+        return 'Nine';
+        break;
 }
-howMuchILoveYou(7)
+}
