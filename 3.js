@@ -1,3 +1,5 @@
-function expressionMatter(a, b, c) {
-   return  Math.max(a + b + c, a * (b + c),a * b *c, a + b * c, (a + b) * c)
+function opposite(number) {
+    let n = 0;
+    return n = -(number);
 }
+opposite()

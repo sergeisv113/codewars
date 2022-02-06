@@ -209,3 +209,8 @@ function makeNegative(num) {
 function expressionMatter(a, b, c) {
     return  Math.max(a + b + c, a * (b + c),a * b *c, a + b * c, (a + b) * c)
 }
+//по заданному целому числу или числу с плавающей запятой найти его противоположность
+function opposite(number) {
+    let n = 0;
+    return n = -(number);
+}
