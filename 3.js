@@ -1,3 +1,5 @@
-function century(year) {
-    return Math.trunc((year - 1) / 100 + 1);
+function expressionMatter(a, b, c) {
+
+   return  Math.max(a + b + c, a * (b + c),a * b *c, a + b * c, (a + b) * c)
+
 }

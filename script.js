@@ -192,3 +192,15 @@ function getAge(inputString){
 function century(year) {
     return Math.trunc((year - 1) / 100 + 1);
 }
+//Число может быть уже отрицательным, и в этом случае никаких изменений не требуется.
+// Ноль (0) не проверяется на наличие какого-либо конкретного знака.
+function makeNegative(num) {
+    let n = Math.sign(num);
+    if (n === -1) {
+        return num;
+    } else  if (n === 1) {
+        return num * -1;
+    } else {
+        return 0;
+    }
+}
