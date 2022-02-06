@@ -1,5 +1,3 @@
-function opposite(number) {
-    let n = 0;
-    return n = -(number);
+function square(num) {
+   return Math.sqrt(num);
 }
-opposite()
