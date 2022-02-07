@@ -214,3 +214,12 @@ function opposite(number) {
     let n = 0;
     return n = -(number);
 }
+//функцию, которая принимает аргумент и возвращает его квадрат.
+function square(num) {
+    return Math.pow(num, 2);
+}
+//Напишите программу, которая находит сумму всех чисел от 1 до num. Число всегда будет положительным целым числом больше 0.
+let summation = function (num) {
+    return num * (num + 1) / 2;
+}// (8)36
+//
