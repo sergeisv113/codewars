@@ -1,3 +1,4 @@
-let summation = function (num) {
-    return num * (num + 1) / 2;
+function between(a, b) {
+    let arr =[];
+    for (let i = 0; i < )
 }
