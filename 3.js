@@ -1,10 +1,7 @@
-function findLongest(str) {
-    let longest = 0;
-    for (let i = 0; i < str.split('').length; i++) {
-        if (str(i).length.max) {
-            return longest
-        }
+function find_average(array) {
+   let i = array.reduce((a, b) => (a + b)) / array.length;
+    if (i == 0) {
+        return 0;
+    }
 }
-}
-findLongest("Take me to tinseltown with you")
-
+find_average([1,1,1])
