@@ -226,3 +226,14 @@ let summation = function (num) {
 function between(a, b) {
     return Array(b - a + 1).fill().map((_, idx) => a + idx)
 }
+//Вывод должен быть длиной самого длинного слова в виде числа.
+function findLongest(str) {
+    let spl = str.split(" ");
+    let longest = 0;
+    for (let i = 0; i < spl.length; i++) {
+        if (spl[i].length > longest) {
+            longest = spl[i].length;
+        }
+    }
+    return longest;
+}
