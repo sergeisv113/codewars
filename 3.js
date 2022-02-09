@@ -1,7 +1,9 @@
-function find_average(array) {
-   let i = array.reduce((a, b) => (a + b)) / array.length;
-    if (i == 0) {
+function sumStr(a,b) {
+    let str = 0;
+    str = +a + +b
+    if (a == '' || b == '') {
         return 0;
     }
+    return  str.toString();
 }
-find_average([1,1,1])
+sumStr('34', '5')

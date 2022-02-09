@@ -245,3 +245,14 @@ function find_average(array) {
     }
     return array.reduce((a, b) => (a + b)) / array.length;
 }
+//Создайте функцию, которая принимает 2 целых числа в виде строки в качестве входных данных и выводит сумму (также в виде строки)
+function sumStr(a,b) {
+    function sumStr(a, b) {
+        let str = 0;
+        str = +a + +b
+        if (a == '' && b == '') {
+            return '0';
+        }
+        return str.toString();
+    }
+};
