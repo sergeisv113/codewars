@@ -258,12 +258,13 @@ function sumStr(a,b) {
 };
 //Учитывая строку, вы должны вернуть строку, в которой каждый символ (с учетом регистра) повторяется один раз.
 function doubleChar(str) {
-    let st = '';
-    for (let i = 0; i < str.length; i++) {
-        return s = (str[i].repeat(2).push(st))
-    }
-
-}
+    let word = '';
+    for (let i = 0; i < str.length; i++){
+        word = word + str[i] + str[i];
+    };
+    return word;
+};
+// ||let doubleChar=s=>s.replace(/(.)/g,"$1$1");
 doubleChar("abcd")//'aabbccdd'
 //Учитывая массив целых чисел, ваше решение должно найти наименьшее целое число.
 class SmallestIntegerFinder {
