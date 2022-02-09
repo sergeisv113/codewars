@@ -1,9 +1,4 @@
-function sumStr(a,b) {
-    let str = 0;
-    str = +a + +b
-    if (a == '' || b == '') {
-        return 0;
-    }
-    return  str.toString();
+class SmallestIntegerFinder {
+    findSmallestInt(args)  {
+      return   Math.min(...args)}
 }
-sumStr('34', '5')

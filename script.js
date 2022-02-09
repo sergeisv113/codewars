@@ -256,3 +256,17 @@ function sumStr(a,b) {
         return str.toString();
     }
 };
+//Учитывая строку, вы должны вернуть строку, в которой каждый символ (с учетом регистра) повторяется один раз.
+function doubleChar(str) {
+    let st = '';
+    for (let i = 0; i < str.length; i++) {
+        return s = (str[i].repeat(2).push(st))
+    }
+
+}
+doubleChar("abcd")//'aabbccdd'
+//Учитывая массив целых чисел, ваше решение должно найти наименьшее целое число.
+class SmallestIntegerFinder {
+    findSmallestInt(args)  {
+        return   Math.min(...args)}
+}
