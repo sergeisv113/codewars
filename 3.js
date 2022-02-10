@@ -1,7 +1,9 @@
-function doubleChar(str) {
-    let st = '';
-    for (let i = 0; i < str.length; i++) {
-     return st = str[i].repeat(2)
+function  find(nums) {
+    let maxNum = Number.NEGATIVE_INFINITY;
+    for (let num of nums) {
+        if (num > maxNum) {
+            maxNum = num
+        }
     }
+    return maxNum
 }
-doubleChar("abcd")
