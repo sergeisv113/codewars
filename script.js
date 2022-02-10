@@ -297,3 +297,7 @@ function usdcny(usd) {
     let a = 6.75
     return (usd * a).toFixed(2).toString() + ' Chinese Yuan'
 }
+//Завершите решение, чтобы оно перевернуло все слова в переданной строке.
+function reverseWords(str){
+    return str.split(' ').reverse().join(' ')
+}
