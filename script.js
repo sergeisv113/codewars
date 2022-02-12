@@ -301,3 +301,7 @@ function usdcny(usd) {
 function reverseWords(str){
     return str.split(' ').reverse().join(' ')
 }
+//Напишите функцию, которая возвращает новую строку, содержащую те же последовательности символов, кроме первой и последней, но на этот раз разделенные пробелами
+function array(arr){
+    return arr.split(",").slice(1,-1).join(" ") || null;
+}
