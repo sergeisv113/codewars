@@ -309,3 +309,8 @@ function array(arr){
 function greet(name){
     return `Hello, ${name} how are you doing today?`
 }
+//Учитывая массив чисел, проверьте, являются ли какие-либо из чисел кодами символов для строчных гласных ( a, e, i, o, u).
+// Если это так, измените значение массива на строку этой гласной.
+function isVow(a){
+    return a.map(x => /[aeiou]/.test(String.fromCharCode(x)) ? String.fromCharCode(x) : x);
+}

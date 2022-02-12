@@ -1,4 +1,7 @@
-function greet(name){
-    return `Hello, ${name} how are you doing today?`
+function isVow(a){
+    let el = ['a', 'e', 'i', 'o', 'u'];
+ if (a.indexOf(el)) {
+     return a.indexOf(el);
+ }
 }
-greet("Ryan");
+isVow(["e",121,110,113,113,103,121,121,"e",107,103])
