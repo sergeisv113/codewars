@@ -305,3 +305,7 @@ function reverseWords(str){
 function array(arr){
     return arr.split(",").slice(1,-1).join(" ") || null;
 }
+//Создайте функцию, которая будет возвращать оператор приветствия, использующий ввод
+function greet(name){
+    return `Hello, ${name} how are you doing today?`
+}
