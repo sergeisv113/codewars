@@ -314,3 +314,14 @@ function greet(name){
 function isVow(a){
     return a.map(x => /[aeiou]/.test(String.fromCharCode(x)) ? String.fromCharCode(x) : x);
 }
+//Числа могут быть положительными или отрицательными, целыми числами или числами с плавающей запятой.
+function testEven(n) {
+    if (n % 2 == 0 || n == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+// наибольшее и наименьшее число в этом массиве
+let min = list => Math.min(...list);
+let max = list => Math.max(...list);
