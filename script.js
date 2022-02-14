@@ -336,4 +336,8 @@ function basicOp(operation, value1, value2) {
     } else {
         return value1 / value2;
     }
+}// ||return eval(a+o+b)
+// Каждое положительное становится отрицательным, а отрицательное становится положительным.
+function invert(array) {
+    return array.map((a) => -a)
 }
