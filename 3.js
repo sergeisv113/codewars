@@ -1,3 +1,12 @@
-let min = list => Math.min(...list);
-let max = list => Math.max(...list);
+function basicOp(operation, value1, value2) {
+   if (operation === '+') {
+       return value1 + value2;
+   } else if (operation === '-') {
+       return value1 - value2;
+   } else if (operation === '*') {
+       return value1 * value2;
+   } else {
+       return value1 / value2;
+   }
+}
 
