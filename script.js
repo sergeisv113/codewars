@@ -349,3 +349,9 @@ function positiveSum(arr) {
 function maps(x){
     return x.map((a) => a*2)
 }
+// повторить строку 1000 раз и в массив
+let websites = []
+for (i=0; i<1000; i++)
+{
+    websites.push("codewars");
+}
