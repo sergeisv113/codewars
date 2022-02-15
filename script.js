@@ -341,3 +341,7 @@ function basicOp(operation, value1, value2) {
 function invert(array) {
     return array.map((a) => -a)
 }
+//получаете массив чисел, возвращаете сумму всех положительных.
+function positiveSum(arr) {
+    return arr.reduce((sum,el) => el >= 0 ? sum + el : sum, 0)
+}
