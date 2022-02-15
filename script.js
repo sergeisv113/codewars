@@ -345,3 +345,7 @@ function invert(array) {
 function positiveSum(arr) {
     return arr.reduce((sum,el) => el >= 0 ? sum + el : sum, 0)
 }
+// вернуть новый массив с удвоением каждого
+function maps(x){
+    return x.map((a) => a*2)
+}
