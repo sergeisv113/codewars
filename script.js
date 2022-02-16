@@ -365,4 +365,7 @@ function greet (i) {
 function litres(time) {
     return Math.floor(time * 0.5);
 }
-//
+//([2, 2, 3], [5, 4, 1]), объем aравен 12, а объем bравен 20. Следовательно, функция должна вернуть 8.
+function findDifference(a, b) {
+    return Math.abs(a.reduce((x, y) => x * y) - b.reduce((x, y) => x * y))
+}
