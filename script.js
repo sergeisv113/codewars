@@ -355,3 +355,9 @@ for (i=0; i<1000; i++)
 {
     websites.push("codewars");
 }
+//
+function greet (i) {
+    if(i === undefined) {
+        return 'hello world!'
+    }
+}

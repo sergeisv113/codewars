@@ -1,8 +1,5 @@
-
-let websites.push(str.repeat(1000));
-let str = 'codewars';
-
-
-
-
-console.log(websites)
+function greet (i) {
+    if(i === undefined) {
+        return 'hello world!'
+    }
+}
