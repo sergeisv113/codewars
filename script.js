@@ -361,3 +361,8 @@ function greet (i) {
         return 'hello world!'
     }
 }
+//время в часах, и вам нужно вернуть количество литров, которые выпьет Натан, округленное до наименьшего значения.
+function litres(time) {
+    return Math.floor(time * 0.5);
+}
+//
