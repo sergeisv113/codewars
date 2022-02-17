@@ -1,4 +1,4 @@
-function findDifference(a, b) {
-   return Math.abs(a.reduce((x, y) => x * y) - b.reduce((x, y) => x * y))
+function check(a, x) {
+  return  a.includes(x)
 }
-findDifference([15, 20, 25], [10, 30, 25])
+check([66, 101], 66)

@@ -369,3 +369,7 @@ function litres(time) {
 function findDifference(a, b) {
     return Math.abs(a.reduce((x, y) => x * y) - b.reduce((x, y) => x * y))
 }
+// содержит ли предоставленный массив значение.
+function check(a, x) {
+    return  a.includes(x)
+}
