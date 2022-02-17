@@ -374,3 +374,14 @@ function check(a, x) {
     return  a.includes(x)
 }
 //Если ваше имя начинается с буквы «R» или строчной «r», вы играете на банджо!
+function areYouPlayingBanjo(name) {
+    if (name[0] == 'R' || name[0] == 'r') {
+        return name + " plays banjo";
+    } else {
+        return name + " does not play banjo"
+    }
+}
+//
+function fixTheMeerkat(arr) {
+    return arr.reverse();
+}
