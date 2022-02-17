@@ -373,3 +373,4 @@ function findDifference(a, b) {
 function check(a, x) {
     return  a.includes(x)
 }
+//Если ваше имя начинается с буквы «R» или строчной «r», вы играете на банджо!
