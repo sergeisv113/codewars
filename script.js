@@ -401,3 +401,7 @@ function isPalindrome(x) {
 function hexToDec(hexString){
     return  parseInt(hexString, 16);
 }
+//, проверяющую, содержит ли строка слово «привет» на разных языках.
+function validateHello(greetings) {
+    return /(hello|ciao|salut|hallo|hola|ahoj|czesc)/i.test(greetings)
+}
