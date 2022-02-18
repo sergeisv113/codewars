@@ -1,7 +1,7 @@
-function areYouPlayingBanjo(name) {
-   if (name[0] == 'R' || name[0] == 'r') {
-      return name + " plays banjo";
+function isPalindrome(x) {
+   if(x.toLowerCase() === x.split('').reverse().join('').toLowerCase()) {
+      return true;
    } else {
-      return name + " does not play banjo"
+      return  false;
    }
 }

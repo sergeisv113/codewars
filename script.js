@@ -385,3 +385,19 @@ function areYouPlayingBanjo(name) {
 function fixTheMeerkat(arr) {
     return arr.reverse();
 }
+//Возвращает среднее значение данного массива, округленное до ближайшего целого числа.
+function getAverage(marks){
+    return  Math.round(marks.reduce((a, b) => (a + b) / marks.length));
+}
+//Напишите функцию, которая проверяет, является ли заданная строка (без учета регистра) палиндромом .
+function isPalindrome(x) {
+    if(x.toLowerCase() === x.split('').reverse().join('').toLowerCase()) {
+        return true;
+    } else {
+        return  false;
+    }
+}
+// которая преобразует шестнадцатеричное число (заданное в виде строки) в десятичное число.
+function hexToDec(hexString){
+    return  parseInt(hexString, 16);
+}
