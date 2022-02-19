@@ -436,3 +436,7 @@ function hello(name) {
         return `Hello, ${name[0].toUpperCase() + name.slice(1).toLowerCase()}!`;
     }
 }
+//поменять слова местами
+function nameShuffler(str){
+    return str.split(' ').reverse().join(' ');
+}
