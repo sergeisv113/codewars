@@ -422,3 +422,7 @@ const validateHello = greetings => {
     }
     return false
 }
+//
+function sayHello(name) {
+    return `Hello, ${name}`
+}
