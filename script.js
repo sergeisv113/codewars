@@ -426,3 +426,13 @@ const validateHello = greetings => {
 function sayHello(name) {
     return `Hello, ${name}`
 }
+//Определите метод hello, который returns"Hello, Name!" к данному name, или говорит Привет, Мир! если имя не указано (или передано как пустая строка).
+function hello(name) {
+    if (name === '' ||  name === undefined) {
+        return 'Hello, World!';
+    } else  if (name.substr(-1) === name.toUpperCase()) {
+        return `Hello, ${name.reverse()}!`;
+    } else {
+        return `Hello, ${name[0].toUpperCase() + name.slice(1).toLowerCase()}!`;
+    }
+}
