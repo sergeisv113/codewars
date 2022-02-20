@@ -444,3 +444,8 @@ function nameShuffler(str){
 function noSpace(x){
     return x.split(' ').join('');
 }
+//Учитывая массив целых чисел в виде строк и чисел, верните сумму значений массива, как если бы все они были числами.
+function sumMix( x) {
+    let str =  x.join(' + ');
+    return eval(str);
+}
