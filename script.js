@@ -448,4 +448,13 @@ function noSpace(x){
 function sumMix( x) {
     let str =  x.join(' + ');
     return eval(str);
+}//return x.map(a => +a).reduce((a, b) => a + b);
+//Создайте функцию с двумя аргументами, которая будет возвращать массив первых (n) кратных (x).
+function countBy(x, n) {
+    let result = [];
+    for (let i = 1; i <= n; i++) {
+        result.push(x * i);
+    }
+    return result;
 }
+//

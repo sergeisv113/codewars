@@ -1,5 +1,8 @@
-function sumMix( x) {
- let str =  x.join(' + ');
- return eval(str);
+function countBy(x, n) {
+   let result = [];
+   for (let i = 1; i <= n; i++) {
+      result.push(x * i);
+   }
+   return result;
 }
-sumMix([9, 3, '7', '3'])
+countBy(1,10)
