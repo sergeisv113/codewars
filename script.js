@@ -440,3 +440,7 @@ function hello(name) {
 function nameShuffler(str){
     return str.split(' ').reverse().join(' ');
 }
+//Просто удалите пробелы из строки, затем верните результирующую строку.
+function noSpace(x){
+    return x.split(' ').join('');
+}

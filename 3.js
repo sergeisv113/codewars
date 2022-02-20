@@ -1,4 +1,3 @@
-function nameShuffler(str){
-   return str.split(' ').reverse().join(' ');
+function noSpace(x){
+   return x.split(' ').join('');
 }
-nameShuffler('john McClane')
