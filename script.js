@@ -457,4 +457,26 @@ function countBy(x, n) {
     }
     return result;
 }
-//
+//Добавьте isUpperCaseметод, Stringчтобы увидеть, написана ли строка ЗАГЛАВНЫМИ БУКВАМИ
+String.prototype.isUpperCase = function(str) {
+    return String(this) === this.toUpperCase();
+}
+//поменять буквы с диакритическими знаками:ą -> a,
+let  polishLetters = {
+    "ą": "a",
+    "ć": "c",
+    "ę": "e",
+    "ł": "l",
+    "ń": "n",
+    "ó": "o",
+    "ś": "s",
+    "ź": "z",
+    "ż": "z",
+};
+function correctPolishLetters (string) {
+    return string.split('').map((i) => polishLetters[i] || i).join("");
+}
+//Возьмите массив и удалите каждый второй элемент из массива. Всегда сохраняйте первый элемент и начинайте удаление со следующего элемента.
+function removeEveryOther(arr){
+    return arr.filter((item, index) => index % 2 === 0)
+}
