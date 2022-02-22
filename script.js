@@ -480,3 +480,11 @@ function correctPolishLetters (string) {
 function removeEveryOther(arr){
     return arr.filter((item, index) => index % 2 === 0)
 }
+// Input: "aa", "bb" , "cc" => Output: "abcabc"
+function tripleTrouble(one, two, three){
+    let arr = [] ;
+    for (let i = 0; i < one.length; i += 1) {
+        arr.push(one[i], two[i], three[i]);
+    }
+    return arr.join('');
+}
