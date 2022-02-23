@@ -494,4 +494,25 @@ function noBoringZeros(n) {
         n = n / 10;
     }
     return n;
+}//return Number(String(n).replace(/0+$/,''))
+//
+function xor(a, b) {
+    if (a == false && b == false) {
+        return false;
+    } else  if (a == true && b == false) {
+        return true;
+    } else if (a == false && b == true) {
+        return  true;
+    } else {
+        return  false;
+    }
 }
+//monkeyCount(10) // --> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+function monkeyCount(n) {
+    let arr = [];
+    for (let i = 1; i <= n; i++) {
+        arr.push(i);
+    }
+    return arr;
+}//return [...Array(n+1).keys()].slice(1)
+//

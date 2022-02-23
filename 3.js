@@ -1,6 +1,7 @@
-function noBoringZeros(n) {
-   while ( n % 10 == 0 && n != 0)  {
-      n = n / 10;
-   }
-   return n;
+function monkeyCount(n) {
+ let arr = [];
+ for (let i = 1; i <= n; i++) {
+    arr.push(i);
+ }
+ return arr;
 }
