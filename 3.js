@@ -1,8 +1,6 @@
-function tripleTrouble(one, two, three){
-   let arr = [] ;
-   for (let i = 0; i < one.length; i += 1) {
-      arr.push(one[i], two[i], three[i]);
+function noBoringZeros(n) {
+   while ( n % 10 == 0 && n != 0)  {
+      n = n / 10;
    }
-   return arr.join('');
+   return n;
 }
-tripleTrouble("Sea","urn","pms")
